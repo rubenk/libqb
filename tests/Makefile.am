@@ -23,7 +23,7 @@ CLEANFILES =
 AM_CPPFLAGS = -I$(top_builddir)/include -I$(top_srcdir)/include
 
 noinst_PROGRAMS = bmc bmcpt bms rbwriter rbreader loop bench-log \
-	auto_check_header_qbarray auto_check_header_qbconfig auto_check_header_qbhdb \
+	auto_check_header_qbarray auto_check_header_qbhdb \
 	auto_check_header_qbipc_common auto_check_header_qblist auto_check_header_qbloop \
 	auto_check_header_qbrb auto_check_header_qbatomic auto_check_header_qbdefs \
 	auto_check_header_qbipcc auto_check_header_qbipcs auto_check_header_qblog \
